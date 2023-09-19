@@ -27,3 +27,12 @@ Jar
 ### Aula 4:
 Tem que rodar a primeira vez para poder verificar se ele vai entrar na porta correta, geralmente ele roda dentro da porta `8080`.
 
+#Aula 6:
+Leitura para mim necessária
+https://medium.com/@gcbrandao/diferen%C3%A7a-entre-restcontroller-e-controller-annotation-no-spring-mvc-e-rest-8533998a93eb
+
+### Aula 11:
+Maven é responsável por gerenciar os pacotes do Spring
+Adicionado as dependências:
+JPA: Java Persistence API, responsável por criar a estrtura de tabelas no banco de dados, além de interagir com os objetos recebidos e enviados
+MySQL: Dependência responsável pela conexão entre uma aplicação Spring e o banco MySQL
