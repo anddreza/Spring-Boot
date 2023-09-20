@@ -1,4 +1,4 @@
-package br.com.projeto.api.controle;
+package br.com.project.api.controll;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
-import br.com.projeto.api.modelo.Pessoa;
-import br.com.projeto.api.repositorio.Repositorio;
+import br.com.project.api.model.Pessoa;
+import br.com.project.api.repository.Repositorio;
 
 //Simplesmente retornar o objeto e os dados do objeto são gravadados diretamente na resposta HTTP como JSON ou XML
 @RestController
-public class Controle {
+public class Controll {
 
 	//
 	@Autowired
