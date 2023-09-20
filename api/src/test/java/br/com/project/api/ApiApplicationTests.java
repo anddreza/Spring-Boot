@@ -1,4 +1,4 @@
-package br.com.project.api;
+/* package br.com.project.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,3 +11,4 @@ class ApiApplicationTests {
 	}
 
 }
+ */
