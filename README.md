@@ -31,6 +31,8 @@ Tem que rodar a primeira vez para poder verificar se ele vai entrar na porta cor
 Leitura para mim necessária
 https://medium.com/@gcbrandao/diferen%C3%A7a-entre-restcontroller-e-controller-annotation-no-spring-mvc-e-rest-8533998a93eb
 
+### Aula 9:
+Não é possível assim utilizar o navegador, então baixa a extensão ThunderClient, ele tem suporte para trabalhar com o RequestBody só assim consigo enviar dados do navegador para minha API
 ### Aula 11:
 Maven é responsável por gerenciar os pacotes do Spring
 Adicionado as dependências:
