@@ -6,15 +6,22 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+//Especificar a criação da tabela
 @Entity
+//Criar o nome da tabela como "pessoas"
 @Table(name = "pessoas")
 public class Pessoa {
 	//Atributos
+	//Responsavel para criação da Primary Key
+
     @Id
+		//Informação autoincrementada, toda vez que passar um nome e uma idade será gerada o codigo
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int codigo;
 	private String nome;
 	private int idade;
+
 
 	public int getCodigo() {
 		return codigo;
